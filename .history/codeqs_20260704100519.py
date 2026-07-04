@@ -46,13 +46,3 @@ print(df.dropna())
 
 df["Calories"] = df["Calories"].fillna(df["Calories"].mean())
 print(df["Calories"])
-
-# 6. Select Specific Columns
-
-print(df[["Calories"]])
-# 7. Filter Employees Having Salary Greater Than 400
-
-result = df[df["Calories"] > 400]
-print(result)
-
-# 1. Add New Column

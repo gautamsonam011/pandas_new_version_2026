@@ -54,5 +54,3 @@ print(df[["Calories"]])
 
 result = df[df["Calories"] > 400]
 print(result)
-
-# 1. Add New Column

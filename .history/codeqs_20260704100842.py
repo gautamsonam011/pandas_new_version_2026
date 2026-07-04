@@ -52,7 +52,5 @@ print(df["Calories"])
 print(df[["Calories"]])
 # 7. Filter Employees Having Salary Greater Than 400
 
-result = df[df["Calories"] > 400]
+result = df[["Calories"] > 400]
 print(result)
-
-# 1. Add New Column

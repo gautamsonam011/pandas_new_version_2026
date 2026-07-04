@@ -37,22 +37,5 @@ df = pd.read_csv("data.csv")
 # 
 # 4. Find Missing Values
 
-# print("missing values", df.isnull())
+print("missing values", df.isnull())
 print("Missing values count", df.isnull().sum())
-
-# 5. Remove Missing Values
-
-print(df.dropna())
-
-df["Calories"] = df["Calories"].fillna(df["Calories"].mean())
-print(df["Calories"])
-
-# 6. Select Specific Columns
-
-print(df[["Calories"]])
-# 7. Filter Employees Having Salary Greater Than 400
-
-result = df[df["Calories"] > 400]
-print(result)
-
-# 1. Add New Column
